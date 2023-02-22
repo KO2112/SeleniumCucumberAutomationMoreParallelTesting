@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression suite">
+    <test name="Selenium test" >
+        <classes>
+            <class name="com.cydeo.utilities.pomdesignexplicitywait.Prompractice" />
+        </classes>
+    </test>
+
+    <test name="Regression1">
+        <classes>
+            <class name="com.cydeo.utilities.WebDriverWaitPractices.WebDriverWaitPractice"/>
+        </classes>
+    </test>
+    <test name="Regression2">
+        <classes>
+            <class name="com.cydeo.step_definition.GoogleStepDefinitions"/>
+        </classes>
+    </test>
+</suite>
